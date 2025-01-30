@@ -14,6 +14,22 @@ module.exports = {
     headers: {
       "Access-Control-Allow-Origin": "*",
     },
+    setupMiddlewares: (middlewares, devServer) => {
+      if (!devServer) {
+        throw new Error("webpack-dev-server is not defined");
+      }
+      devServer.app.use((req, res, next) => {
+        try {
+          decodeURIComponent(req.url);
+          next();
+        } catch (err) {
+          console.error("Malformed URL detected:", req.url);
+          res.status(400).send("Bad Request: Malformed URL");
+        }
+      });
+  
+      return middlewares;
+    },
   },
   module: {
     rules: [
