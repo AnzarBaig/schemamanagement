@@ -1,0 +1,643 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+const SvgJsoneditorIcons = props => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 240,
+  height: 144
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M4 4h16v16H4z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M28 4h16v16H28z",
+  style: {
+    fill: "#ec3f29",
+    fillOpacity: 0.94117647,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M52 4h16v16H52zM172 4h16v16h-16zM196 4h16v16h-16z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("g", {
+  style: {
+    stroke: "none"
+  }
+}, /*#__PURE__*/React.createElement("path", {
+  d: "M7 11h10v2H7z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M11 7h2v10h-2z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  }
+})), /*#__PURE__*/React.createElement("g", {
+  style: {
+    stroke: "none"
+  }
+}, /*#__PURE__*/React.createElement("path", {
+  d: "M7 11h10v2H7z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  },
+  transform: "rotate(-45 24 -16.97)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M11 7h2v10h-2z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  },
+  transform: "rotate(-45 24 -16.97)"
+})), /*#__PURE__*/React.createElement("path", {
+  d: "M55 7h7v7h-7z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "#000",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M58 10h7v7h-7z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "#4c4c4c",
+    strokeWidth: 2,
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M58 10h7v7h-7z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "#3c80df",
+    strokeWidth: 0,
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 0.94117647
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M198 11h8v2h-8zM198 7h12v2h-12zM198 15h4v2h-4z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "#000",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M198 11h8v2h-8zM198 7h12v2h-12zM198 15h4v2h-4z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "#000",
+    strokeWidth: 0
+  },
+  transform: "matrix(1 0 0 -1 -24 24)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M76 4h16v16H76z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m85.104 6.016-.015 1.406c3.027-.24.33 3.65 2.484 4.578-2.187 1.094.492 4.907-2.453 4.578L85.105 18c5.708.56 1.032-5.1 4.703-5.265v-1.407c-3.613-.027 1.119-5.707-4.703-5.312zM82.781 5.998l.016 1.407c-3.027-.24-.33 3.65-2.485 4.578 2.187 1.094-.491 4.907 2.454 4.578l.015 1.422c-5.708.559-1.032-5.1-4.703-5.266v-1.406c3.613-.027-1.119-5.707 4.703-5.313z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "#fff",
+    strokeWidth: 0.2,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M100 4h16v16h-16z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M103.719 5.672V18.39h3.031v-1.532h-1.344V7.234h1.375V5.672zM112.219 5.672v12.719h-3.032V16.86h1.344V7.235h-1.375V5.672z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M124 4h16v16h-16z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M126.282 17.603h1.79l1.141-2.864h5.654l1.149 2.864h1.765l-4.787-11.161h-1.919z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m129.727 13.479 4.609.01-2.305-5.55zM148 4h16v16h-16z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M156.477 5.892v2.18l.46 2.398h1.829l.398-2.399v-2.18zM152.516 5.89v2.18l.46 2.399h1.829l.398-2.399V5.89z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M54 64h12v2H54zM80 52h3v3h-3zM85 52h3v3h-3zM80 58h3v3h-3zM85 58h3v3h-3zM80 64h3v3h-3zM85 64h3v3h-3z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 0.98431373,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("circle", {
+  cx: 110.061,
+  cy: 57.939,
+  r: 4.744,
+  style: {
+    opacity: 1,
+    fill: "none",
+    fillOpacity: 1,
+    stroke: "#4c4c4c",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M116.646-31.798h4.23v6.405h-4.23z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 0.98431373,
+    stroke: "none",
+    strokeWidth: 0
+  },
+  transform: "rotate(45)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m125 56 13.77.095L132 64ZM149 64l13.77-.095L156 56Z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    fillRule: "evenodd",
+    stroke: "none",
+    strokeWidth: 0,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M54 53h12v2H54z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 0.98431373,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M53-56h13v2H53zM53-66h13v2H53z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 0.98431373,
+    stroke: "none",
+    strokeWidth: 0
+  },
+  transform: "rotate(90)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M54 57h12v1H54z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 0.98431373,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M54 88h12v2H54zM80 76h3v3h-3zM85 76h3v3h-3zM80 82h3v3h-3zM85 82h3v3h-3zM80 88h3v3h-3zM85 88h3v3h-3z",
+  style: {
+    fill: "#d3d3d3",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0,
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("circle", {
+  cx: 110.061,
+  cy: 81.939,
+  r: 4.744,
+  style: {
+    opacity: 1,
+    fill: "none",
+    fillOpacity: 1,
+    stroke: "#d3d3d3",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M133.616-14.827h4.23v6.405h-4.23z",
+  style: {
+    fill: "#d3d3d3",
+    fillOpacity: 1,
+    stroke: "#d3d3d3",
+    strokeWidth: 0,
+    strokeOpacity: 1
+  },
+  transform: "rotate(45)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m125 80 13.77.095L132 88ZM149 88l13.77-.095L156 80Z",
+  style: {
+    fill: "#d3d3d3",
+    fillOpacity: 1,
+    fillRule: "evenodd",
+    stroke: "#d3d3d3",
+    strokeWidth: 0,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M54 77h12v2H54z",
+  style: {
+    fill: "#d3d3d3",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0,
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M77-56h13v2H77zM77-66h13v2H77z",
+  style: {
+    fill: "#d3d3d3",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0,
+    strokeOpacity: 1
+  },
+  transform: "rotate(90)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M54 81h12v1H54z",
+  style: {
+    fill: "#d3d3d3",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0,
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M76 101h16v2H76zM76 105h16v2H76zM76 109h9v2h-9zM76 125h12v2H76zM76 137h10v2H76zM82 129h10v2H82zM82 133h9v2h-9z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 0.8,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M36.398 100.025a8 8 0 0 0-1.265.062 7.86 7.86 0 0 0-4.508 2.227L29 100.599l-2.324 7.713 7.826-1.906-1.805-1.906a5.03 5.03 0 0 1 5.985-.721 4.915 4.915 0 0 1 2.308 5.55 4.99 4.99 0 0 1-4.83 3.696v3.074c3.55 0 6.71-2.411 7.65-5.941s-.618-7.274-3.71-9.07a7.84 7.84 0 0 0-3.702-1.063zM59.723 99.963a7.83 7.83 0 0 0-3.702 1.062c-3.092 1.797-4.65 5.54-3.71 9.07s4.097 5.942 7.648 5.942v-3.074a4.99 4.99 0 0 1-4.83-3.695 4.915 4.915 0 0 1 2.309-5.551 5.03 5.03 0 0 1 5.986.72l-1.807 1.907 7.828 1.906-2.324-7.713-1.627 1.717a7.86 7.86 0 0 0-4.506-2.229 8 8 0 0 0-1.265-.062z",
+  style: {
+    color: "#000",
+    fontStyle: "normal",
+    fontVariant: "normal",
+    fontWeight: 400,
+    fontStretch: "normal",
+    fontSize: "medium",
+    lineHeight: "normal",
+    fontFamily: "sans-serif",
+    textIndent: 0,
+    textAlign: "start",
+    textDecoration: "none",
+    textDecorationLine: "none",
+    textDecorationStyle: "solid",
+    textDecorationColor: "#000",
+    letterSpacing: "normal",
+    wordSpacing: "normal",
+    textTransform: "none",
+    direction: "ltr",
+    blockProgression: "tb",
+    writingMode: "lr-tb",
+    baselineShift: "baseline",
+    textAnchor: "start",
+    whiteSpace: "normal",
+    clipRule: "nonzero",
+    display: "inline",
+    overflow: "visible",
+    visibility: "visible",
+    opacity: 0.8,
+    isolation: "auto",
+    mixBlendMode: "normal",
+    colorInterpolation: "sRGB",
+    colorInterpolationFilters: "linearRGB",
+    solidColor: "#000",
+    solidOpacity: 1,
+    fill: "#fff",
+    fillOpacity: 1,
+    fillRule: "nonzero",
+    stroke: "none",
+    strokeWidth: 2.66157866,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeDashoffset: 0,
+    strokeOpacity: 1,
+    colorRendering: "auto",
+    imageRendering: "auto",
+    shapeRendering: "auto",
+    textRendering: "auto"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.5 100v2H8l4 5 4-5h-2.5v-2z",
+  style: {
+    opacity: 0.8,
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 1.96599996,
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m4.985 108.015 14.03-.03M4.985 132.015l14.03-.03",
+  style: {
+    opacity: 0.8,
+    fill: "none",
+    stroke: "#fff",
+    strokeWidth: 1.96599996,
+    strokeLinecap: "square",
+    strokeLinejoin: "miter",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M36.398 123.963a8 8 0 0 0-1.265.062 7.86 7.86 0 0 0-4.508 2.226L29 124.538l-2.324 7.713 7.826-1.907-1.805-1.906a5.03 5.03 0 0 1 5.985-.72 4.915 4.915 0 0 1 2.308 5.55 4.99 4.99 0 0 1-4.83 3.695v3.075c3.55 0 6.71-2.41 7.65-5.94s-.618-7.275-3.71-9.072a7.84 7.84 0 0 0-3.702-1.063zM59.723 123.963a7.84 7.84 0 0 0-3.702 1.062c-3.092 1.797-4.65 5.543-3.71 9.073s4.097 5.94 7.648 5.94v-3.075a4.99 4.99 0 0 1-4.83-3.695 4.915 4.915 0 0 1 2.309-5.551 5.03 5.03 0 0 1 5.986.72l-1.807 1.907 7.828 1.906-2.324-7.713-1.627 1.717a7.86 7.86 0 0 0-4.506-2.229 8 8 0 0 0-1.265-.062z",
+  style: {
+    color: "#000",
+    fontStyle: "normal",
+    fontVariant: "normal",
+    fontWeight: 400,
+    fontStretch: "normal",
+    fontSize: "medium",
+    lineHeight: "normal",
+    fontFamily: "sans-serif",
+    textIndent: 0,
+    textAlign: "start",
+    textDecoration: "none",
+    textDecorationLine: "none",
+    textDecorationStyle: "solid",
+    textDecorationColor: "#000",
+    letterSpacing: "normal",
+    wordSpacing: "normal",
+    textTransform: "none",
+    direction: "ltr",
+    blockProgression: "tb",
+    writingMode: "lr-tb",
+    baselineShift: "baseline",
+    textAnchor: "start",
+    whiteSpace: "normal",
+    clipRule: "nonzero",
+    display: "inline",
+    overflow: "visible",
+    visibility: "visible",
+    opacity: 0.4,
+    isolation: "auto",
+    mixBlendMode: "normal",
+    colorInterpolation: "sRGB",
+    colorInterpolationFilters: "linearRGB",
+    solidColor: "#000",
+    solidOpacity: 1,
+    fill: "#4d4d4d",
+    fillOpacity: 1,
+    fillRule: "nonzero",
+    stroke: "none",
+    strokeWidth: 2.66157866,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeDashoffset: 0,
+    strokeOpacity: 1,
+    colorRendering: "auto",
+    imageRendering: "auto",
+    shapeRendering: "auto",
+    textRendering: "auto"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.5 116v-2H8l4-5 4 5h-2.5v2zM10.5 129v-2H8l4-5 4 5h-2.5v2zM10.5 135v2H8l4 5 4-5h-2.5v-2z",
+  style: {
+    opacity: 0.8,
+    fill: "#fff",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 1.96599996,
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m16.667 60.073-3.833 2.214L9 64.5v-8.854l3.834 2.214z",
+  style: {
+    fill: "#4d4d4d",
+    fillOpacity: 0.90196078,
+    stroke: "#d3d3d3",
+    strokeWidth: 0,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m-31.5 60.073-3.834 2.214-3.833 2.213v-8.854l3.833 2.214z",
+  style: {
+    fill: "#4d4d4d",
+    fillOpacity: 0.90196078,
+    stroke: "#d3d3d3",
+    strokeWidth: 0,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  },
+  transform: "scale(-1 1)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m16.667 60.073-3.833 2.214L9 64.5v-8.854l3.834 2.214z",
+  style: {
+    fill: "#4d4d4d",
+    fillOpacity: 0.90196078,
+    stroke: "#d3d3d3",
+    strokeWidth: 0,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  },
+  transform: "rotate(90 .11 71.898)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m16.667 60.073-3.833 2.214L9 64.5v-8.854l3.834 2.214z",
+  style: {
+    fill: "#4d4d4d",
+    fillOpacity: 0.90196078,
+    stroke: "#d3d3d3",
+    strokeWidth: 0,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none"
+  },
+  transform: "matrix(0 -1 -1 0 96 96)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M171.826 65.174h16.348L180 51.826z",
+  style: {
+    fill: "#fbb917",
+    fillOpacity: 1,
+    fillRule: "evenodd",
+    stroke: "#fbb917",
+    strokeWidth: 1.65161395,
+    strokeLinecap: "butt",
+    strokeLinejoin: "round",
+    strokeMiterlimit: 4,
+    strokeDasharray: "none",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M179 55v6h2v-6M179 62v2h2v-2",
+  style: {
+    opacity: 1,
+    fill: "#fff",
+    fillOpacity: 1,
+    fillRule: "evenodd",
+    stroke: "none",
+    strokeWidth: 1,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "m99.994 113.022 2.006 1.962 7-6.956 3 .972 2-1 1-2v-3l-3 3-3-3 3-3h-3l-2 1-1 2 .994 3.022z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 0.8,
+    fillRule: "evenodd",
+    stroke: "#fff",
+    strokeWidth: 1,
+    strokeLinecap: "butt",
+    strokeLinejoin: "round",
+    strokeOpacity: 0.8
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M220 4h16v16h-16z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M234 6v2l-5 5v5h-2v-5l-5-5V6",
+  style: {
+    fill: "#fff",
+    fillRule: "evenodd",
+    stroke: "none",
+    strokeWidth: 1,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M198 12.625h6v1.25h-6zM198 15.125h7.5v1.25H198zM198 7.625h3v1.25h-3zM198 10.125h4.5v1.25H198z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 0.8,
+    stroke: "#000",
+    strokeWidth: 0
+  },
+  transform: "matrix(1.33333 0 0 -1.6 -140 127.2)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M207 16.375V10.75h-2.25l3-3.125 3 3.125h-2.25v5.625z",
+  style: {
+    fill: "#fff",
+    fillOpacity: 0.8,
+    fillRule: "evenodd",
+    stroke: "none",
+    strokeWidth: ".68465352px",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: 1
+  },
+  transform: "matrix(1.33333 0 0 -1.6 -140 127.2)"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M164 100v3l-6 6v7h-4v-7l-6-6v-3",
+  style: {
+    fill: "#fff",
+    fillOpacity: 0.8,
+    fillRule: "evenodd",
+    stroke: "none",
+    strokeWidth: 1,
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: 1
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M4 28h16v16H4z",
+  style: {
+    fill: "#4c4c4c",
+    fillOpacity: 1,
+    stroke: "none",
+    strokeWidth: 0
+  }
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M15 41v-7h-4v3l-5-4 5-4v3h6v9",
+  style: {
+    fill: "#fff",
+    fillOpacity: 1,
+    fillRule: "evenodd",
+    stroke: "none",
+    strokeWidth: ".68465352px",
+    strokeLinecap: "butt",
+    strokeLinejoin: "miter",
+    strokeOpacity: 1
+  }
+}));
+export default SvgJsoneditorIcons;
