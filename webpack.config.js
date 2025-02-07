@@ -1,12 +1,14 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 
 module.exports = {
   mode: "development",
   entry: "./src/index.tsx",
   output: {
-    publicPath: "http://64.227.151.6:3001/",
+    publicPath: "auto",
   },
   devServer: {
     port: 3001,
@@ -27,7 +29,7 @@ module.exports = {
           res.status(400).send("Bad Request: Malformed URL");
         }
       });
-  
+
       return middlewares;
     },
   },
@@ -42,7 +44,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader","postcss-loader"],
+        use: [
+          MiniCssExtractPlugin.loader, // ✅ Extracts CSS into a separate file
+          "css-loader",
+          "postcss-loader",
+        ],
       },
       {
         test: /\.svg$/,
@@ -63,9 +69,17 @@ module.exports = {
       exposes: {
         "./schemamanagement": "./src/App",
       },
+      shared: {
+        react: { singleton: true, requiredVersion: "18", eager: true },
+        "react-dom": { singleton: true, requiredVersion: "18", eager: true },
+        "react-redux": { singleton: true, requiredVersion: "^9.2.0", eager: true },
+      },
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+    }),
+    new MiniCssExtractPlugin({
+      filename: "index.css", // ✅ Ensures CSS is saved as a separate file
     }),
   ],
 };
